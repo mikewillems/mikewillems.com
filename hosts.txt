@@ -1,0 +1,4 @@
+# This is a custom hosts file for VPN-based address blocking. 
+# There are plenty for ads already: this one is just for distractions.
+
+facebook.com  127.0.0.1
