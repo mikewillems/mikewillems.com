@@ -1,0 +1,54 @@
+{
+    "createdBy": "Redirector v3.2",
+    "createdAt": "2018-08-30T20:16:44.942Z",
+    "redirects": [
+        {
+            "description": "amazon blank",
+            "exampleUrl": "https://www.amazon.com/",
+            "exampleResult": "https://smile.amazon.com/",
+            "error": null,
+            "includePattern": "https://www.amazon.com*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://smile.amazon.com/",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Amazon ref only",
+            "exampleUrl": "https://www.amazon.com/ref=abc",
+            "exampleResult": "https://smile.amazon.com/ref=abc",
+            "error": null,
+            "includePattern": "https://www.amazon.com/(.{0,})",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://smile.amazon.com/$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Amazon Smile",
+            "exampleUrl": "https://www.amazon.com/item1/ref=...",
+            "exampleResult": "https://smile.amazon.com/item1",
+            "error": null,
+            "includePattern": "https://www.amazon.com/(.{0,})/ref",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://smile.amazon.com/$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
