@@ -1,4 +1,4 @@
-##Add Redirector rules for smile.Amazon.com
+## Add Redirector rules for smile.Amazon.com ##
 
 1. Download [this file][2] using *right click* >> "save link as".
 2. If you haven't already, install the [Redirector chrome extension][1].
